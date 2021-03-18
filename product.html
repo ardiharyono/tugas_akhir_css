@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas Akhir CSS - Niomic</title>
+    <link rel="shorcut icon" href="img/nas.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style media="screen">
+      footer {
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body class="bg-secondary">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">PT. Nikmat Anugerah Sentosa</h5>
+        <ul class="nav flex-column nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/product1.jpg" class="d-block w-100" alt="..." width="100%" height="500px">
+            <div class="carousel-caption d-none d-md-block text-danger">
+              <h5>F T T X</h5>
+              <p align="justify">FTTx adalah istilah umum untuk setiap design jaringan menggunakan kabel serat optik untuk menyediakan dan melayani semua pelanggan telekomunikasi dititik akhir posisi pelanggan.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/product2.jpg" class="d-block w-100" alt="..." width="100%" height="500px">
+            <div class="carousel-caption d-none d-md-block text-danger">
+              <h5>LAST MILE SOLUTION</h5>
+              <p align="justify">LMS adalah bentuk layanan yang langsung terhubung secara point to point kepada pelanggan dengan menggunakan kapasitas maupun Core yang tersedia dalam jaringan Fiber Optic.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/product3.jpg" class="d-block w-100" alt="..." width="100%" height="500px">
+            <div class="carousel-caption d-none d-md-block text-danger">
+              <h5>METRO-E</h5>
+              <p align="justify">Metro-e adalh bentuk Layanan yang disiapkan untuk pelanggan yang memiliki segmentasi target dan pasar dengan komitmen tertentu.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+      </nav>
+    </div> <br />
+
+    <div class="container">
+      <div class="container-fluid bg-dark text-white">
+        <div class="row align-items-start">
+          <div class="col"><br />
+            <img src="img/fttx.jpeg" class="rounded mx-auto d-block" alt="" width="150px" height="100px">
+            <p class="lead" align="justify">FTTx adalah istilah umum untuk setiap design jaringan menggunakan kabel serat optik untuk menyediakan dan melayani semua pelanggan telekomunikasi dititik akhir posisi pelanggan.</p>
+          </div>
+          <div class="col"><br />
+            <img src="img/lms.jpg" class="rounded mx-auto d-block" alt="" width="150px" height="100px">
+            <p class="lead" align="justify">LMS adalah bentuk layanan yang langsung terhubung secara point to point kepada pelanggan dengan menggunakan kapasitas maupun Core yang tersedia dalam jaringan Fiber Optic.</p>
+          </div>
+          <div class="col"><br />
+            <img src="img/metro.jpg" class="rounded mx-auto d-block" alt="" width="150px" height="100px">
+            <p class="lead" align="justify">Metro-e adalh bentuk Layanan yang disiapkan untuk pelanggan yang memiliki segmentasi target dan pasar dengan komitmen tertentu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <footer class="bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">PT. Nikmat Anugerah Sentosa (NAS)</div>
+          <div class="col-6 col-md-4 text-center">&copy; NAS Net</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  </body>
+</html>
